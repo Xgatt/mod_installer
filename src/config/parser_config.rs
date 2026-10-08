@@ -57,6 +57,7 @@ impl Default for ParserConfig {
         "leave blank".to_string(),
         "[a]ccept, [r]etry, [c]ancel".to_string(),
         "[y]es, [n]o, [c]ancel".to_string(),
+        "1) yes".to_string(),
       ]
       .into_iter()
       .collect(),
@@ -190,6 +191,7 @@ Example: C:\\Program Files (x86)\\BeamDog\\Games\\00806",
       "Please enter a new title for the selected kit (leave blank to keep current):",
       r#"accept kit title "354" ([a]ccept, [r]etry, [c]ancel)?"#,
       "There is no question, only bell\x07",
+      "1) Yes",
     ];
     for test in tests {
       assert_eq!(
