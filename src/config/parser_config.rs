@@ -191,7 +191,7 @@ Example: C:\\Program Files (x86)\\BeamDog\\Games\\00806",
       "Please enter a new title for the selected kit (leave blank to keep current):",
       r#"accept kit title "354" ([a]ccept, [r]etry, [c]ancel)?"#,
       "There is no question, only bell\x07",
-      "1) Yes",
+      "Add 9th Level Mage Spells to Fighter / Mage / Bard HLAs? (Note: useless without removing experience cap)\n\n1) Yes\n2) No",
     ];
     for test in tests {
       assert_eq!(
